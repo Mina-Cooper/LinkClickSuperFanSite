@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- make sure you LINK the HTML and CSS files together -->
+    <link rel="stylesheet" href="style.css" />
+    <title>SuperFan Project</title>
+  </head>
+  <body>
+    <!-- children of the body element -->
+    <div class="column1">
+      <div class="season-box s1 center-content">
+        <img
+          src="images/seasons/sb1.jpeg"
+          onclick="showSeason1()"
+          id="seasonOne"
+          class="clickable"
+        />
+      </div>
+      <div class="season-box s2 center-content">
+        <img
+          src="images/seasons/sb2.jpeg"
+          onclick="showSeason2()"
+          id="seasonTwo"
+          class="clickable"
+        />
+      </div>
+      <div class="season-box yng center-content">
+        <img
+          src="images/seasons/sby.jpeg"
+          onclick="showYingdu()"
+          id="seasonYingdu"
+          class="clickable"
+        />
+      </div>
+    </div>
+    <div class="column2">
+      <div class="int1">
+        <div class="cool-box top" id="topBox">
+          <img
+            src="images/s1/cxs1.jpeg"
+            class="clickable"
+            id="charles1"
+            onclick="xiaoshiInfo()"
+          />
+          <img src="images/s2/ltc1.jpeg" class="gone clickable" id="v1" />
+          <img
+            src="images/yingdu/v1.jpeg"
+            class="gone"
+            id="vein1"
+            class="clickable"
+          />
+        </div>
+        <div class="cool-box middle" id="middleBox">
+          <img
+            src="images/s1/lg1.jpeg"
+            class="clickable"
+            id="lucas1"
+            onclick="guangInfo()"
+          />
+          <img
+            src="images/s2/ltx1.jpeg"
+            class="gone"
+            id="siv1"
+            class="clickable"
+          />
+          <img
+            src="images/yingdu/xf1.jpeg"
+            class="gone"
+            id="felix1"
+            class="clickable"
+          />
+        </div>
+        <div class="cool-box bottom" id="bottomBox">
+          <img
+            src="images/s1/ql1.jpeg"
+            class="clickable"
+            id="jo1"
+            onclick="lingInfo()"
+          />
+          <img
+            src="images/s2/qj1.jpeg"
+            class="gone"
+            id="qianJin1"
+            class="clickable"
+          />
+          <img
+            src="images/yingdu/lx1.jpeg"
+            class="gone"
+            id="xavier1"
+            class="clickable"
+          />
+        </div>
+      </div>
+      <div class="int2 center-content">
+        <img
+          src="images/extra/minicxs.jpeg"
+          class="clickable"
+          onclick="funFact()"
+        />
+      </div>
+    </div>
+    <audio src="Sounds/BREAK.mp3" type="audio/mp3" id="break"></audio>
+    <audio src="Sounds/Prometheus.mp3" type="audio/mp3" id="prometheus"></audio>
+    <audio src="Sounds/Burning_Palace.mp3" type="audio/mp3" id="hhh"></audio>
+    <audio src="Sounds/Click.mp3" type="audio/mp3" id="click"></audio>
+    <script src="script.js"></script>
+  </body>
+</html>
